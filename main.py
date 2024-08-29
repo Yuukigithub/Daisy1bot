@@ -28,9 +28,7 @@ class Bot(BaseBot):
         await self.highrise.send_whisper(user.id,f"❤️Welcome [{user.username}] Use: [!emote list] or [1-97] For Dances & Emotes")
 
         await self.highrise.send_whisper(user.id,f"❤️Use: [/help] For More Informations.")
-
-        await self.highrise.send_whisper(user.id,f"❤️[Rent Bot] or [Buy Bot File] Call [@ShoKytoo] in private.")
-           
+      
         await self.highrise.send_emote("dance-hipshake")
       
         await self.highrise.send_emote("emote-lust",user.id) 
