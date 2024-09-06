@@ -41,7 +41,7 @@ class RunBot():
 
       except Exception as e:
         print("Error: ", e)
-        time.sleep(5)
+        time.sleep(9)
 
 if __name__ == "__main__":
   WebServer().keep_alive()
